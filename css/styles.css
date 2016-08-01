@@ -1,0 +1,440 @@
+/* COLORS 
+    pink - #EF415C
+    navy-blue - #161F30
+    rgba(22, 31, 48, 0.77)
+*/
+    
+/* TYPOGRAPHY */
+	h1, h2, h3, h5, h6 {letter-spacing: 1px; font-family: "alternate-gothic-no-2-d",sans-serif;}
+	p {font-size: 1.25em; line-height: 1.5em; font-family: 'museo-sans', sans-serif; font-weight: 300; color: #161F30;}
+    a {text-decoration: none; color: #EF415C; text-transform: none;} 
+    a:hover, a:focus, a:active {
+        text-decoration: none;
+        color: #161F30;
+        background: 0 0;
+        transition: all .5s ease-in-out;}
+
+/* HEADER NAVIGATION */
+    .navbar {
+        background-color: #fff;
+        padding : 3% 0;
+        font-family: "alternate-gothic-no-2-d", sans-serif;
+        font-size: 2em;
+        text-transform: uppercase;
+        margin: 0 0 10% 0;
+        border: none;
+    }
+    .navbar .navbar-brand {
+        font-family: "alternate-gothic-no-2-d", sans-serif;
+        font-size: 2em;
+        color: #EF415C;
+    }
+    .navbar .navbar-brand:hover, .navbar .navbar-brand:focus, .navbar .navbar-brand:active {
+        color: #161F30;
+        background: 0 0;
+        transition: all .5s ease-in-out;
+    }
+    .navbar .navbar-nav .chat {
+        border: solid 2px #EF415C;
+        color: #EF415C;
+        border-radius: 16px;
+    }
+    .navbar .navbar-nav>li>a {
+        color: #EF415C;
+        margin: 0 .75em 0 .75em;
+    }
+    .navbar .navbar-nav>li>a:hover, .navbar .navbar-nav>li>a:focus, .navbar .navbar-nav>li>a:active {
+        color: #161F30;
+        background: 0 0;
+        transition: all .5s ease-in-out;
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+        background-color: transparent;
+        color: #EF415C;
+    }
+    .dropdown-menu>li>a {
+        font-size: 2em;
+        color: #EF415C;
+    }
+    .navbar-toggle {
+        background-color: transparent; 
+		border: none;
+        height: 50px;
+        width: 50px;
+		margin-top: 0;
+		margin-right: 6%;        
+    }
+    .navbar-inverse .navbar-toggle .icon-bar {
+        background-color: #EF415C;
+        width: 50px;
+        height: 4px;
+        padding-bottom: 2%;
+    }
+    .navbar-toggle .icon-bar:focus, .navbar-toggle .icon-bar:hover {
+        background-color: #161F30;
+        transition: all .5s ease-in-out;
+    }
+    .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+        background-color: transparent;
+    }
+
+
+
+/* LANDING PAGE */
+
+	.jumbotron {
+		background-image: url('../img/background.png');
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		padding: 12% 0;
+		margin: 10% 0 0 0;
+    }
+	.jumbotron h1 {
+		font-size: 8.5em;
+		color: #EF415C;
+        margin: 0;
+        padding: 0;
+    }
+	.jumbotron h3 {
+		color: #fff;
+		font-size: 3em;
+        margin: 0;
+        padding: 0;
+    }
+    .jumbotron p {
+        color: #fff;
+        line-height: 1.5em;
+    }
+
+/* WORK */
+    #work {
+        background-color: #161F30;
+    }
+	#work h2 {
+        font-size: 2.5em;
+        color: #EF415C; 
+        text-transform: uppercase; 
+        padding: 2% 0;
+    }
+    .work-title {
+        padding: 2% 0;
+		margin: 4% 0 0 0;
+    }
+    .work-page {
+        padding: 10% 0;
+		margin: 6% 0 0 0;  
+    }
+    .more-button {
+        font-family: "alternate-gothic-no-2-d", sans-serif; 
+        text-transform: uppercase;
+	  	line-height: 1.75;
+        margin: 15px 6% 0 6%;
+        border: solid 2px #EF415C;
+        font-size: 1.25em;
+        color: #EF415C;
+        border-radius: 16px;
+        background: 0 0;
+        margin-bottom: 6%;
+        padding: .25em 1.75em;
+        transition: all .5s ease-in-out;
+    }
+    .to-home a {
+        font-family: 'museo-sans', sans-serif;
+        font-size: 1em;
+    }
+    .to-home a:hover {
+        color: #fff;
+    }
+    #work .thumbnail {
+        width: 100%;
+    }
+    .thumbnail {
+        border: 0;
+        background: 0;
+    }
+
+/* ABOUT */
+    #about {
+        padding: 10% 4%;
+    }
+	#about h2 {
+        font-size: 2.5em;
+        color: #EF415C; 
+        text-transform: uppercase; 
+        text-align: center; 
+        display: block; 
+        padding: 2% 0;
+    }
+    #about p span {
+        font-family: "alternate-gothic-no-2-d", sans-serif;
+        font-size: 1.25em; 
+        color: #EF415C;
+        text-transform: uppercase;
+    }
+    hr {
+        border: 0;
+        height: 1px;
+        background: #161F30;
+    }
+
+/* LET'S CHAT */
+    #chat {
+        padding-top: 6%;
+    }
+	#chat h2 {
+        font-size: 2.5em;
+        color: #EF415C; 
+        text-transform: uppercase; 
+        text-align: center; 
+        display: block; 
+        padding: 2% 0; 
+    }
+    #chat h3 {
+        color: #161F30;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #chat p {
+        text-align:center;
+        margin: 0 20%;
+    }
+    #chat p span {
+        font-weight:700;
+    }
+    .email {
+        padding: 4% 0;
+    }
+    p a {
+        color: #EF415C;
+        font-size: 2em;
+        font-weight: 500;
+    }
+    .social {
+        text-align: center;
+        padding-bottom: 8%;
+    }
+    .btn-outline {
+        margin-top: 15px;
+        border: solid 2px #161F30;
+        font-size: 20px;
+        color: #161F30;
+        background: 0 0;
+        transition: all .5s ease-in-out;
+    }
+    .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
+        border: solid 2px #EF415C;
+        background-color: #EF415C;
+        color: #fff;
+    }
+    .btn-social {
+        color: #EF415C;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border: 2px solid #EF415C;
+        border-radius: 100%;
+        text-align: center;
+        font-size: 20px;
+        line-height: 45px;
+    }
+
+/* FOOTER */
+	footer {background-color: #161F30; padding: 4% 0;}
+	footer p {color: #fff; font-size: 1.25em; font-weight: 300;}
+    footer p>a {text-decoration: none; font-size: 1em; color: #fff; font-weight: 500;}
+    footer p>a:hover, footer p>a:focus, footer p>a:active {text-decoration: none; color: #EF415C;}
+
+
+
+/* TYPEWRITER */
+    .typed-cursor {
+        opacity: 1;
+        -webkit-animation: blink 0.7s infinite;
+        -moz-animation: blink 0.7s infinite;
+        animation: blink 0.7s infinite;
+    }
+    @keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-webkit-keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+    @-moz-keyframes blink{
+        0% { opacity:1; }
+        50% { opacity:0; }
+        100% { opacity:1; }
+    }
+
+
+/* Resume Style */
+    .resume-button {
+        font-family: "alternate-gothic-no-2-d", sans-serif; 
+        text-transform: uppercase;
+	  	line-height: 1.75;
+        margin: 15px 6% 0 6%;
+        border: solid 2px #EF415C;
+        font-size: 1.25em;
+        color: #EF415C;
+        border-radius: 16px;
+        background: 0 0;
+        margin: 4% 0;
+        padding: .25em 1.75em;
+        transition: all .5s ease-in-out;
+    }
+	.btn-group-lg>.btn, .btn-lg:hover,.btn-group-lg>.btn, .btn-lg:focus {
+        border: 2px #EF415C solid;
+        color: #fff;
+        background-color: #EF415C;
+    }
+    #resume-page {
+        padding: 6% 0;
+		margin: 7% 0 0 0;
+    }
+    #resume-page .col-lg-12 {
+        padding: 4% 0;
+    }
+    #resume-page h2 {
+        font-family: "alternate-gothic-no-2-d", sans-serif;
+        font-size: 3em;
+        color: #EF415C;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+    }
+    #resume-page h4 {
+        font-family: "alternate-gothic-no-2-d", sans-serif;
+        font-size: 2em;
+        color: #EF415C;
+        text-transform: uppercase;
+    }
+    #resume-page h5 {
+        font-family: "alternate-gothic-no-2-d", sans-serif;
+        font-size: 1.25em;
+        color: #161F30;
+        text-transform: uppercase;
+    }
+    .resume-info a {
+        font-size: 1em;
+        color: #161F30;
+    }
+    .resume-info a:hover, .resume-info a:focus, .resume-info a:active {
+        font-size: 1em;
+        color: #EF415C;
+    }
+    ul {
+        list-style: none;
+    }
+    ol {
+        list-style: none;
+    }
+    ol li {
+        font-size: 1.25em;
+        float: left;
+        padding-right: 4%;
+    }
+    
+    #resume-info .col-md-4{
+        padding: 0 3%;
+    }
+    #resume-info .col-md-8{
+        padding: 0 5% 0 3%;
+    }
+
+
+
+/* MODAL */
+
+    .modal-dialog {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        border-radius: 0;
+        background-color: #fff;
+    }
+    .modal-header {
+        background-color: #EF415C;
+        color: #fff;
+        font-size: 2em;
+        text-transform: uppercase;
+        padding-top: 4%;
+        
+    }
+    .modal-title {
+        font-size: 1.75em;
+        line-height: normal;
+    }
+    .modal .close {
+        font-size: 2em;
+        color: #fff;
+        opacity: none;
+    }
+    .modal h1 {
+        font-size: 4em;
+        color: #EF415C;
+    }
+    .modal-body p {
+        font-size: 1.25em;
+        color: #161F30;
+        padding: 6% 6% 0 6%;
+        width: 100%;
+    }
+    .work-1 {
+        margin: 0 auto;
+    }
+
+
+/* Selection */
+    ::-moz-selection {
+        color: #fff;
+        background: #3E4B60;
+    }
+
+    ::selection {
+        color: #fff;
+        background: #3E4B60;
+    }
+
+/* Overflow Fix */
+    .row {
+        margin: 0px;
+    }
+
+/* MailChimp */
+    #mce-EMAIL {
+        font-size: 2em;
+        line-height: 1.5em;
+        font-family: 'museo-sans', sans-serif;
+        font-weight: 300;
+        color: #EF415C;
+        width: 60%;
+        height: 4%;
+        padding: 10px;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid rgba(22, 31, 48, 0.77);
+        margin-bottom: 4%;
+        margin-top: 4%;
+    }
+    #mc-embedded-subscribe {
+        font-family: "alternate-gothic-no-2-d", sans-serif;
+        font-size: 2em;
+        background: #fff;
+        color: #EF415C;
+        border: 0; 
+    }
+    #mce-success-response, #mce-error-response {
+        font-size: 1.75em; 
+        line-height: 1.5em; 
+        font-family: 'museo-sans', sans-serif; 
+        font-weight: 500; 
+        color: #161F30;
+        padding-bottom: 4%;
+    }
+
