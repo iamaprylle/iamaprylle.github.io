@@ -5,7 +5,7 @@
 */
     
 /* TYPOGRAPHY */
-	h1, h2, h3, h5, h6 {letter-spacing: 1px; font-family: 'museo-sans-rounded',sans-serif; font-weight: 700;}
+	h1, h2, h3, h5, h6 {letter-spacing: 1px; font-family: 'museo-sans-rounded', sans-serif; font-weight: 700;}
 	p {font-size: 1.25em; line-height: 1.5em; font-family: 'museo-sans-rounded', sans-serif; font-weight: 100; color: #161F30;}
     a {text-decoration: none; color: #EF415C; text-transform: none;} 
     a:hover, a:focus, a:active {
